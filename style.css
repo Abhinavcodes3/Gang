@@ -1,0 +1,167 @@
+body{
+    background-image: url(files/logo\ transparent\ chrome.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1250px ;
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+    color:rgb(0, 0, 0) ;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-shadow: 5px 5px 5px gray;
+    text-align: center;
+    
+}
+pre{
+    color: rgb(0, 0, 0);
+     font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px white;
+        
+    }
+ #div{
+    height: 50px;width: 500px;
+    background-color: rgb(0, 195, 255);
+    box-shadow: 3px 3px 7px;
+    margin-top: 50px;
+ }
+#span1{
+    background-color: red;
+    height: 50;
+    box-shadow: 3px 3px 7px ;
+}
+
+#nas{
+    float: right;
+    margin: 10px;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+#Skibidi{
+color: rgb(86, 86, 86);
+text-decoration: none;
+}
+#Skibidi:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 25px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+.pagination a.active{
+background-color: rgb(107, 107, 107);
+font-weight: bolder;
+border-radius: 10px;
+}
+#pageid{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+.pagination a:hover:not(:active){
+    background-color: rgb(176, 176, 176);
+    border-radius: 10px;
+    font-size:1.1em ;
+} 
+.Dropdown button{
+background-color: rgb(105, 105, 105);
+padding: 20px 30px;
+cursor: pointer;
+font-size: 2em;
+font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal; ;
+        border-radius: 15px;
+}
+.Dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding:15px 23px ;
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        font-size: 1.5em;
+}
+.Dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(156, 156, 156);
+    min-width: 100px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 15px;
+}
+.Dropdown:hover .content{
+    display: block;
+}
+.Dropdown{
+    float: right;
+    margin-right: 20px;
+    display: inline;
+}
+.Dropdown a:hover{
+    background-color: rgb(100, 100, 100);
+    border-radius: 15px;
+}
+.nav{
+    background-color: grey;
+    padding: 7px 7px;
+    margin: 5px;   
+    margin: 0px;
+    border-radius: 5px;
+}
+.nav a{
+   padding-left: 150px;
+   padding-right: 150px;
+   text-decoration: none ;
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal; 
+   color: black;
+   text-align: center;
+   font-size: 2em;
+   
+}
+.nav a:hover{
+    background-color:rgb(94, 94, 94) ;
+}
+.gallery{
+    display: inline-block;
+}
+h4{
+    float: right;
+    font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        font-size: 3em;
+}
+.icons{
+    text-align: left;
+}
+.icons a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.icons a :hover{
+    color: rgb(107, 107, 107);
+}
